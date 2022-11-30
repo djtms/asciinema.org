@@ -20,7 +20,7 @@ gem 'open4',                '~> 1.3.0'
 gem 'redcarpet',            '~> 2.2.2'
 gem 'slim',                 '~> 2.0.0'
 gem 'dotenv-rails',         '~> 0.8'
-gem 'sinatra',              '~> 1.4.3', :require => false
+gem 'sinatra', '~> 2.2.3', :require => false
 gem 'active_model_serializers', '~> 0.8.1'
 gem 'yajl-ruby',            '~> 1.1.0', :require => 'yajl'
 gem 'newrelic_rpm'
