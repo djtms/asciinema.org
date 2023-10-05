@@ -1,19 +1,19 @@
 source 'https://rubygems.org'
 
-gem 'rails',                '4.1.13'
+gem 'rails', '7.1.0'
 
-gem 'sass-rails'
+gem 'sass-rails', '>= 5.0.8'
 gem 'uglifier'
-gem 'jquery-rails',         '~> 3.0.4'
+gem 'jquery-rails', '~> 4.0.1'
 
 gem 'pg',                   '~> 0.14'
 gem 'carrierwave',          '~> 0.8.0'
-gem 'kaminari',             '~> 0.14.1'
+gem 'kaminari', '~> 0.15.0'
 gem 'bugsnag',              '~> 2.2.1'
-gem 'draper',               '~> 1.3.1'
+gem 'draper', '~> 1.4.0'
 gem 'fog',                  '~> 1.9.0'
-gem 'simple_form',          '~> 3.0.2'
-gem 'simple_form_bootstrap3', '~> 0.2.6'
+gem 'simple_form', '~> 4.0.0'
+gem 'simple_form_bootstrap3', '~> 0.3.0'
 gem 'sidekiq',              '~> 3.2.2'
 gem 'thin',                 '~> 1.5.0'
 gem 'open4',                '~> 1.3.0'
@@ -43,14 +43,14 @@ end
 
 group :test, :development do
   gem 'pry-rails',     '~> 0.3.2'
-  gem 'rspec-rails',   '~> 3.0.2'
+  gem 'rspec-rails', '~> 3.1.0'
   gem 'cane',          '~> 2.5.2'
   gem 'timecop',       '~> 0.7.1'
 end
 
 group :test do
   gem "rake",               '~> 10.0.4'
-  gem 'factory_girl_rails', '~> 4.2.0'
+  gem 'factory_girl_rails', '~> 4.3.0'
   gem 'capybara',           '~> 2.4.1'
   gem 'poltergeist',        '~> 1.6.0'
   gem 'database_cleaner',   '~> 1.0.1'
