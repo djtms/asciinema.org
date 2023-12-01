@@ -7,7 +7,7 @@ gem 'uglifier'
 gem 'jquery-rails',         '~> 3.0.4'
 
 gem 'pg',                   '~> 0.14'
-gem 'carrierwave',          '~> 0.8.0'
+gem 'carrierwave', '~> 2.2.5'
 gem 'kaminari',             '~> 0.14.1'
 gem 'bugsnag',              '~> 2.2.1'
 gem 'draper',               '~> 1.3.1'
